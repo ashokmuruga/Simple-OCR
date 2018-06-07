@@ -17,3 +17,15 @@ Keep a scanned image in the same directory where ocr_simple.py is available
 
 Run as
 python ocr_simple.py image1.jpg 
+
+
+For the regional languages,first update the system settings to install the regional fonts.Restart the system
+AND
+Install the fonts for tesseract using the following commands pertaining to malayalam,tamil,telugu and kannada fonts respectively.
+
+sudo apt-get install tesseract-ocr-mal
+sudo apt-get install tesseract-ocr-tam
+sudo apt-get install tesseract-ocr-tel
+sudo apt-get install tesseract-ocr-kan
+
+
